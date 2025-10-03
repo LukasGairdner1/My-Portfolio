@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lukas Gairdner's APLSK-TRADES Portfolio Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f7f8fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c2f48;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .layout {
+      display: flex;
+      padding: 2rem;
+      gap: 2rem;
+    }
+
+    .side-image {
+      width: 240px;
+    }
+
+    .side-image img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: opacity 0.8s ease;
+    }
+
+    .main-content {
+      flex: 1;
+    }
+
+    .section {
+      margin-bottom: 2rem;
+    }
+
+    .section h2 {
+      color: #2c2f48;
+      margin-bottom: 0.5rem;
+    }
+
+    .section p {
+      line-height: 1.6;
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;  /* Makes sure the gallery takes up available space */
+      margin: 0 auto;  /* Ensures gallery is centered within the layout */
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: opacity 0.4s ease;
+      opacity: 1;
+    }
+
+    .fade-out {
+      opacity: 0;
+    }
+
+    .gallery-controls {
+      margin-top: 1rem;
+    }
+
+    .gallery-controls button {
+      padding: 0.5rem 1rem;
+      margin: 0 1rem;
+      background-color: #2c2f48;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .gallery-description {
+      margin-top: 1rem;
+      text-align: left;
+      max-width: 700px;
+      padding-left: 10px;
+    }
+
+    .schoolwork-gallery {
+  display: flex;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+  .schoolwork-gallery img {
+  width: 48%; /* Makes both images fit side by side */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Lukas Gairdner's APLSK-TRADES Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#post-secondary">Post-Secondary</a>
+      <a href="#my schoolwork">My Schoolwork</a>
+      <a href="#portfolio">My Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <div class="side-image">
+      <img id="gradImage" src="images/Grad1.jpg" alt="Graduation Photo" />
+      <img src="images/VIUlogo.jpg" alt="Vancouver Island University Logo" style="margin-top: 20px; width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+       <img src="images/FNSS.jpg" alt="Fort Nelson Secondary School Logo" style="margin-top: 20px; width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+      <img src="images/FNFN.jpg" alt="Fort Nelson First Nation Logo" style="margin-top: 20px; width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);" />
+    </div>
+
+    <div class="main-content">
+      <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            Hi, my name is Lukas Gairdner. I am a driven and creative individual with a passion for learning and personal growth. I created this website portfolio to showcase my computer knowledge, academic achievements, project work, and community involvement, as I pursue scholarships and bursaries to support my education. I'm motivated by challenge, committed to excellence, and eager to make a meaningful impact both inside and outside the classroom. Whether it's through leadership, service, or design, I am always seeking ways to learn and contribute!
+        </p>
+      </section>
+      
+      <section id="post-Secondary" class="section">
+        <h2>Post-secondary</h2>
+        <p>
+           I am set to graduate from FNSS in June 2025. For my post-secondary education, I will be attending Vancouver Island University in Nanaimo. I will be taking VIU's Information Technology and Applied Systems (ITAS) program in pursuit of their System Administration and Networking Diploma. Once I achieve the diploma, I plan to transfer into the third year of Computer Science to work towards a bachelor's degree. It was an exciting day when I got the email of my <a href="https://lukasgairdner.github.io/My-Portfolio/images/VIUacceptanceletter.jpg">acceptance letter!</a> 
+        </p>
+      </section>
+
+      <section id="my schoolwork" class="section">
+      <h2>My Schoolwork</h2>
+         <p>
+          I am currenly a teaching assistant in two classes where I am loved by the students and teachers due to my ability to connect with the students and help teach them at their own paces. Overall, my grade 12 year has been very good and I will miss the experiences I've had here. My grade average this year is 88% and you may view my Q3 marks <a href="https://lukasgairdner.github.io/My-Portfolio/images/Q3marks.pdf">here!</a>
+        </p>
+    <div class="schoolwork-gallery">
+      <img src="images/ComputersClass.jpg" alt="Computers class">
+      <img src="images/Art&GymClass.jpg" alt="Art and Gym class">
+    </div>
+        <p>
+          These are two images of me with the classes I am a teaching assistant. The one is a grade 8 computers class with Ms. Shortland, and the other a grade 9 class with Mrs. Dawe that rotates between art and physical education. I have really enjoyed this role and being a mentor!
+        </p>
+      </section>
+
+      <section id="portfolio" class="section">
+        <h2>My Projects</h2>
+        <div class="gallery">
+          <img id="galleryImage" src="" alt="Project Image">
+          <div class="gallery-controls">
+            <button onclick="prevImage()">&#8592; Prev</button>
+            <button onclick="nextImage()">Next &#8594;</button>
+          </div>
+          <div class="gallery-description" id="imageDescription">
+            <!-- Description will go here -->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>
+         phone: 250-500-3514
+        </p>
+        <p>
+         
+        </p>
+        <p>
+         email: Lukasgairdner1@gmail.com
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    // Portfolio image logic
+    const images = [
+      { src: "images/Capstone1.jpg", desc: "For my Capstone Project I decided to build my own Computer from scratch. It was a real challenge to gather the necessary parts I needed especially under a budget of $700. Mr. Johnstone, my capstone mentor, helped guide me through what I should look for and how to get them." },
+      
+      { src: "images/Capstone2.jpg", desc: "After getting all of the necessary parts, I slowly started to assemble everything. After a bit of trial and error, I had a functioning computer; and I ended up under budget as well with my grand total cost being $695! That may sound like a lot, but most modern, well made computers cost anywhere from $1200 to $1600 as a starting range. So, I was quite satisfied with my finished product!" },
+      
+      { src: "images/Capstone3.jpg", desc: "One of the ways I saved on costs for my Capstone was by removing parts from older computers to re-use in mine. I disassembled around 6 desktop computers that ultimately saved me around $300!" },
+      
+      { src: "images/VolunteerHours1.jpg", desc: "For my work experience requirement, I reached out to Fort Nelson First Nation to see if I could volunteer in their IT Department. They agreed and I worked along side their IT Manager, Dana. I was placed in their tech storage room, which was a dream for me to be in!" },
+      
+      { src: "images/VolunteerHours2.jpg", desc: "Over the course of my week at FNFN, I spent my time repairing laptops, troubleshooting hardware and software, and learning hands on experience working in an IT environment. It was a very enjoyable experience that I very much would like to do again!" },
+      
+      { src: "images/VolunteerHours3.jpg", desc: "While helping at FNFN, Dana taught me about how more complicated tech related things work, such as networks and firewalls, and how they work with servers to run webpages and shared files." },
+      
+      { src: "images/RAIDserver1.jpg", desc: "One of my early computer projects, back when I was first learning the ropes of tech, was this Sata RAID server I managed. The top two computers I used as displays, and the bottom one was the server." },
+      
+      { src: "images/RAIDserver2.jpg", desc: "The server itself was given to me by FNSS, but setting it up out of its broken state took weeks due to my limited knowledge at the time. Eventually, I did get it working properly!" },
+      
+      { src: "images/RAIDserver3.jpg", desc: "How the RAID server worked was through special hardware built into it, that combined separate hard drives together into larger, more unified volumes that you can use. RAID itself stands for 'Redundant Array of Independent Disks.' Redundant in this case means it has backups to ensure the server continues to function if part of it fails, which I believe despite being outdated is rather cool!" },
+      
+     { src: "images/3dPrinter.jpg", desc: "At FNSS I am the honorary 3D printer fixer! I have spent hours fixing the school's old 3D printer and when we received a new one, I spend a lot of time fixing it when it fails. In early April the 3D printer had a massive mechanical and user error that resulted in the entire printing assembly being covered in the plastic filament is uses. I spent the time taking it apart, cleaning the parts, having new parts ordered to replace the unsalvageable parts, and repairing everything back to a working state again!" },
+      
+      { src: "images/ProjectOldCompter.jpg", desc: "Another project of mine was fixing up a very old computer I was giving by a family member. The computer was from 2001 so it was very interesting to see how certain parts changed over time and how others didn't change at all! Overall, it was quite fun to get it working again, though I couldn't run anything due to the storage being fully unfixable." },
+      
+      { src: "images/Veryearlyproject.jpg", desc: "My first ever computer project. I was given an old Acer laptop and took it upon myself to fix it. My first attempts did not see any results due to me basically not knowing anything at the time about computers. But after revisiting the project again many months later and doing actual proper cleaning, repairs, and replacing some parts like the hard drive for a faster SSD, I managed to get it running again!" },  
+    ];
+
+    let current = 0;
+    const imgEl = document.getElementById("galleryImage");
+    const descEl = document.getElementById("imageDescription");
+
+    function showImage(index) {
+      imgEl.classList.add("fade-out");
+      const tempImg = new Image();
+      tempImg.src = images[index].src;
+      tempImg.onload = () => {
+        setTimeout(() => {
+          imgEl.src = tempImg.src;
+          imgEl.alt = images[index].desc;
+          descEl.textContent = images[index].desc;
+          imgEl.classList.remove("fade-out");
+        }, 200);
+      };
+    }
+
+    function nextImage() {
+      current = (current + 1) % images.length;
+      showImage(current);
+    }
+
+    function prevImage() {
+      current = (current - 1 + images.length) % images.length;
+      showImage(current);
+    }
+
+    // Preload gallery images
+    images.forEach(img => {
+      const preload = new Image();
+      preload.src = img.src;
+    });
+
+    showImage(current);
+
+    // photo slideshow
+    const gradImages = [
+      "images/Grad1.jpg",
+      "images/Grad2.jpg",
+      "images/Grad3.jpg",
+      "images/Grad4.jpg",
+      "images/Grad5.jpg"
+    ];
+    let gradIndex = 0;
+    const gradImg = document.getElementById("gradImage");
+
+    function cycleGradImages() {
+      gradIndex = (gradIndex + 1) % gradImages.length;
+      gradImg.style.opacity = 0;
+      setTimeout(() => {
+        gradImg.src = gradImages[gradIndex];
+        gradImg.style.opacity = 1;
+      }, 400);
+    }
+
+    setInterval(cycleGradImages, 5000); // change image every 5 seconds
+  </script>
+</body>
+
+</html>
